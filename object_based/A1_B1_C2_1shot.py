@@ -59,8 +59,8 @@ class GCNMetaModel(object):
         self.train_dir = '/home/cll/fewshotlearning/GCN_feature/'
         #self.img_dir = '/home/cll/SUN397_224/'
         self.img_dir = '/home/0_public_data/MIT67/Images'
-        #self.roi_dir = self.train_dir + 'simple/sunrois30v3'
-        self.roi_dir = self.train_dir + 'simple/rois30'
+        #self.roi_dir = self.train_dir + 'object_based/sunrois30v3'
+        self.roi_dir = self.train_dir + 'object_based/rois30'
 
         #self.train_data = json.load(open('sun_oneshot_train.json','r'))
         self.train_data = json.load(open('mit_oneshot_train.json','r'))
